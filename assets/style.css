@@ -1,0 +1,35 @@
+/*  CSS Document */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+
+body {
+	margin: 0; padding: 0; 
+	font-family: 'Raleway', sans-serif; font-size: 16px;
+	line-height: 1.2em; 
+	color: #777; background-color: #ffe9cc; 
+}
+
+header { height: 60px; margin-bottom: 35px; background: #0c6eb0 url(background.jpg) no-repeat 0 0; background-size: auto 60px; }
+
+article { margin: 0 50px; text-align: center; }
+
+h1  { font-size: 2.4em; font-weight: normal; line-height: 1em; color: #0c6eb0; }
+
+h1 span { font-weight: 700; }
+
+p { margin: 25px 35px; }
+
+a { color: #0c6eb0; }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+	
+	h1 span { display: block; }
+	article { margin: 0 10px; }
+
+}
