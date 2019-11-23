@@ -23,7 +23,10 @@ p { margin: 25px 35px; }
 
 a { color: #0c6eb0; }
 
-
+iframe.web_media {
+	width: 425px;
+	height: 239px;
+}
 
 
 
@@ -31,5 +34,10 @@ a { color: #0c6eb0; }
 	
 	h1 span { display: block; }
 	article { margin: 0 10px; }
+	
+	iframe.web_media {
+		width: 275px;
+		height: 154px;
+}
 
 }
